@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML stduy 02 basic02</title>
+    </head>
+
+<!--
+    1. 거의 모든 태그는 style="" 이라는 속성을 사용할 수 있다.
+    2. 이미지는 width가 많이 사용되며 px 혹은 % 단위로 폭 조정 가능
+    (참고)
+    <span> 태그는 display: inline 이라는 스타일 속성을 내포하고 있으며,
+    display: inline을 가지고 있는 요소는 폭, 높이 등을 단독으로 결정할 수 없다.
+    폭, 높이를 주고 싶으면 <span>을 감싸고 있는 <p> 태그에 사용
+
+    * style=""
+    1. 이미지 정렬과 폭 조정
+        1-1. display: block;
+        1-2. margin-left: auto;
+        1-3. margin-right: auto;
+        1-4. width: 150px;
+    2. 자주 사용되는 폰트 스타일
+        2-1. font-size : 폰트 크기
+        2-2. font-family: 폰트 종류 (시스템에 설치되어 있는 폰트)
+        2-3. color: 색상 (#eeeeee : 핵스 컬러)
+        2-4. letter-spacing: 작안(글자 간격)
+        2-5. text-align: 글자 정렬(center : 가운데 정렬)
+-->
+
+    <body>
+        
+        <img src="../img/cat01.jpg" style="width: 200px; border-radius: 50%;
+        margin-left: auto; margin-right: auto; display: block;">
+        <h3 style="font-size: 26px; letter-spacing: 1px; text-align: center;">Sion Noh</h3>
+        <p style="text-align: center;"><span style="color: red; letter-spacing: 2px;">Front-End</span> Developer SionNoh!</p>
+        
+    </body>
+</html>

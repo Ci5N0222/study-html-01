@@ -1,0 +1,13 @@
+.profile {
+    width: 200px; 
+    border-radius: 50%;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+.font {
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+}

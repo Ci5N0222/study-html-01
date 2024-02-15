@@ -1,4 +1,4 @@
-# HTML study
+## HTML study
 
-## VSCode
-## live server
+### VSCode
+### live server

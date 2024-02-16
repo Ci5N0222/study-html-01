@@ -80,3 +80,19 @@ p {
     background: gray;
     clear: both;
 }
+
+.left-menu-inline {
+    width: 20%;
+    height: 300px;
+    background: cornflowerblue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content-inline {
+    width: 80%;
+    height: 300px;
+    background: coral;
+    display: inline-block;
+    vertical-align: top;
+}

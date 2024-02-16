@@ -132,3 +132,10 @@ body {
     position: relative;
     left: 130px;
 }
+
+.contract-text {
+    font-size: 14px;
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+}

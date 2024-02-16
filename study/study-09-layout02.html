@@ -6,9 +6,29 @@
         <link href="../css/main.css" rel="stylesheet">
     </head>
 
+<!--
+    [position]
+    - 좌표 속성을 적용할 기준점을 지정하는 역할
+    top, bottom, left, right 좌표기능을 사용하기 위해서 상하좌우 위치를 변경할 수 있다.
+    위 속성을 사용하기 위해선 position 속성이 필요하다.
+
+    position: static (좌표 적용 불가, 불변의 위치)
+    position: relative (현재 스타일이 적용된 위치)
+    position: absolute (부모태그가 기준)
+    position: fixed (기준은 브라우저 창(view port))
+-->
+
     <body>
         <div class="main-background">
-
+            <div class="main-title">
+                <h4>Cat Cat Cat!!</h4>
+                <p>Cat is Kawaii! Cat is Kawaii! Cat is Kawaii! Cat is Kawaii! Cat is Kawaii! Cat is Kawaii! Cat is Kawaii! Cat is Kawaii!</p>
+                <button class="main-button">입장하기</button>
+            </div>
+        </div>
+        <div class="sub-background">
+            <h4>Hello!</h4>
+            <p>Hello!</p>
         </div>
     </body>
 </html>

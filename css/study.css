@@ -1,6 +1,6 @@
 /* CSS selector */
 
-.profile {
+.profile{
     width: 200px;
     border-radius: 50%;
     margin-left: auto; 
@@ -8,36 +8,36 @@
     display: block;
 }
 
-.title {
+.title{
     font-size: 26px;
     letter-spacing: 1px;
     text-align: center;
 }
 
-.font-red {
+.font-red{
     color: red; 
     letter-spacing: 2px;
 }
 
 /* [class selector] */
-.test {
+.test{
     text-align: center;
     color: grey;
 }
 
 /* [tag selector] 모든 <p> 태그의 스타일 */
-p {
+p{
     text-align: center;
     color: black;
 }
 
 /* [id selector] id에 style 적용 (.class 사용을 권장) */
-#special {
+#special{
     text-align: center;
     color: green;
 }
 
-.box {
+.box{
     width: 300px;
     background: cadetblue;
     margin: 30px;
@@ -50,38 +50,38 @@ p {
     color: white;
 }
 
-.container {
+.container{
     width: 500px;
 }
 
-.header {
+.header{
     width: 100%;
     height: 50px;
     background: aquamarine;
 }
 
-.left-menu {
+.left-menu{
     width: 20%;
     height: 300px;
     background: cornflowerblue;
     float: left;
 }
 
-.content {
+.content{
     width: 80%;
     height: 300px;
     background: coral;
     float: left;
 }
 
-.footer {
+.footer{
     width: 100%;
     height: 100px;
     background: gray;
     clear: both;
 }
 
-.left-menu-inline {
+.left-menu-inline{
     width: 20%;
     height: 300px;
     background: cornflowerblue;
@@ -89,7 +89,7 @@ p {
     vertical-align: top;
 }
 
-.content-inline {
+.content-inline{
     width: 80%;
     height: 300px;
     background: coral;

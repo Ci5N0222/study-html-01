@@ -6,7 +6,40 @@
         <link href="../css/example.css" rel="stylesheet">
     </head>
 
+    <!--
+        HTML 태그에 클래스 두개 이상 붙이기
+            ex : <div class="container text-center">
+            띄어쓰기 한 다음 원하는 class를 넣으면 된다.
+
+        CSS selector 사용 법
+            .navbar li{
+                display: inline-block;
+                width: 60px;
+                text-align: center;
+                background: #eee;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            ** 공백을 이용하여 navbar안에 있는 자손 태그를 선택할 수 있다.
+
+            .navbar li>a{
+                font-size: 18px;
+                text-decoration: none;
+            }
+            ** 꺽쇠괄호를 사용하여 태그를 지정할 수 있다.
+            
+    -->
+
     <body>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">영화</a></li>
+                <li><a href="#">맛집</a></li>
+                <li><a href="#">IT</a></li>
+                <li><a href="#">컴퓨터</a></li>
+            </ul>
+        </nav>
         
         <div class="container">
             <div class="content">

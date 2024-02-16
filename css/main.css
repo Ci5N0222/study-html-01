@@ -1,3 +1,15 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+html {
+    line-height: 1.15;
+}
+
 .main-background {
     width: 100%;
     height: 500px;
@@ -26,22 +38,36 @@
     border-radius: 5px;
     position: relative;
     top: 100px;
+    z-index: 5;
 }
 
 .sub-background {
-    width: 400px;
-    height: 100px;
+    width: 550px;
+    height: 150px;
     background: #eee;
     border-radius: 10px;
-    position: absolute;
-    top: 450px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    position: relative;
+    top: -120px;
     padding: 10px;
     text-align: center;
+    z-index: 1;
 }
 .sub-background p {
     font-size: 14px;
+}
+
+.sub-background2 {
+    width: 70%;
+    max-width: 550px;
+    height: 150px;
+    background: #eee;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    top: -120px;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+    box-sizing: border-box;
 }

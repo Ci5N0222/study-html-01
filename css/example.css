@@ -1,0 +1,49 @@
+.container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: grey;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: blue;
+    clear: both;
+}
+
+.content {
+    width: 70%;
+    height: 200px;
+    background: orange;
+    float: left;
+}
+
+.thumbnail {
+    width: 30%;
+    height: 200px;
+    background: green;
+    float: left;
+}
+
+.content-user {
+    width: 100%;
+}
+
+.content-user-img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    float: left;
+}
+
+
+.content-img {
+    width: 100%;
+}

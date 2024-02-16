@@ -65,7 +65,7 @@
 }
 
 
-div {
+div, input, textarea {
     box-sizing: border-box;
 }
 
@@ -73,69 +73,42 @@ body {
     margin:0px;
 }
 
-
-
-.contract {
-    width: 400px;
-    height: 470px;
-    background: #eee;
-    margin-left: auto;
-    margin-right: auto;
+.form-background {
+    padding: 30px;
+    background-color: black;
 }
 
-.contract h2 {
-    padding: 25px;
-    padding-bottom: 10px;
-    margin-top: 15px;
-    margin-left: 5px;
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
 }
-.contract input[type=email] {
-    width:300px;
+
+.form-input {
+    width: 100%;
     padding: 10px;
-    margin-top: 5px;
-    display: block;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
-.contract input[type=text] {
-    width:130px;
+
+.form-button {
     padding: 10px;
-    margin-top: 5px;
-    display: block;
-}
-.contract textarea {
-    width: 300px;
-    padding: 10px;
-    margin-top: 5px;
-    display: block;
-}
-
-.contract-box {
-    margin-left: 30px;
-    
-}
-.contract-box div{
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-.contract-name {
-    width: 170px;
-    margin-left: 0px;
-    float: left;
-}
-
-.contract-button {
-    width: 100px;
-    height: 30px;
+    border: none;
     background: orange;
     color: white;
-    border: none;
-    position: relative;
-    left: 130px;
+    display: block;
+    margin-left: auto;
 }
 
-.contract-text {
-    font-size: 14px;
-    position: relative;
-    left: 2px;
-    bottom: 2px;
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    padding: 10px;
 }

@@ -7,32 +7,34 @@
     </head>
 
     <body>
-        <div class="contract">
-            <h2>Contract Us</h2>
-            <form class="contract-box">
-                <div>
-                    <span>Your Email</span>
-                    <input type="email" placeholder="email@example.com">
-                </div>
-                <div>
-                    <div class="contract-name">
-                        <span>First name</span>
-                        <input type="text">
+        <div class="form-background">
+            <div class="form-white">
+                <form>
+                    <div class="w-100">
+                        <h2>Contrct Us</h2>
+                        <p>Your Email</p>
+                        <input type="email" class="form-input">
                     </div>
-                    <div class="contract-name">
-                        <span>Last name</span>
-                        <input type="text">
+                    <div class="w-50">
+                        <p>First Name</p>
+                        <input type="text" class="form-input">
                     </div>
-                </div>
-                <div>
-                    <span>Message</span>
-                    <textarea rows="6"></textarea>
-                </div>
-                <div>
-                    <input type="checkbox"><span class="contract-text">Subscribe</span> 
-                    <button class="contract-button"> SEND</button>
-                </div>
-            </form>
+                    <div class="w-50">
+                        <p>Last Name</p>
+                        <input type="text" class="form-input">
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="w-100">
+                        <p>Message</p>
+                        <textarea class="form-input" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <input id="sub" type="checkbox">
+                        <label for="sub">Subscribe</label>
+                        <button type="submit" class="form-button">SEND</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 </html>

@@ -3,7 +3,12 @@ div, input, textarea {
 }
 body {
     margin: 0px;
-    font-family: 'good-font';
+    font-family: 'Roboto', 'good-font';
+    font-weight: 400;
+}
+
+p,h4,h3,h2,h1,span {
+    transform: rotate(0.03deg);
 }
 
 html {
@@ -121,5 +126,21 @@ html {
 
 @font-face {
     font-family: 'good-font';
-    src: url(../font/NanumSquare/NanumSquareR.ttf);
+    src: url(../font/NanumSquare/NanumSquareR.woff);
+}
+
+@font-face {
+    font-family: 'good-font';
+    src: url(../font/NanumSquare/NanumSquareB.woff);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
 }

@@ -1,9 +1,9 @@
-div {
+div, input, textarea {
     box-sizing: border-box;
 }
-
 body {
     margin: 0px;
+    font-family: 'good-font';
 }
 
 html {
@@ -48,7 +48,7 @@ html {
     border-radius: 10px;
     margin: auto;
     position: relative;
-    top: -120px;
+    top: -70px;
     padding: 10px;
     text-align: center;
     z-index: 1;
@@ -77,4 +77,49 @@ html {
     font-size: 20px;
     border: 2px solid black;
     border-radius: 5px;
+}
+
+.form-background {
+    padding: 30px;
+    background-color: black;
+}
+
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-button {
+    padding: 10px;
+    border: none;
+    background: orange;
+    color: white;
+    display: block;
+    margin-left: auto;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'good-font';
+    src: url(../font/NanumSquare/NanumSquareR.ttf);
 }

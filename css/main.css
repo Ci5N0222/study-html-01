@@ -140,7 +140,7 @@ html {
     padding: 5px;
     align-items: center;
     justify-content: center;
-    background-color: orange;
+    background-color: #eee;
 }
 
 .nav-item {
@@ -166,4 +166,24 @@ html {
 .sign {
     margin: auto;
     font-size: 15px;
+}
+
+@media screen and (max-width: 1200px){
+    .main-title {
+        font-size: 30px;
+    }
+
+    .nav-item {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .main-title {
+        font-size: 20px;
+    }
+
+    .nav-item {
+        font-size: 12px;
+    }
 }
